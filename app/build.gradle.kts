@@ -16,6 +16,8 @@ dependencies {
     implementation(project(":delivery"))
     // Adds the repositories project as an implementation dependency.
     implementation(project(":repositories"))
+    // Adds the gateway project as an implementation dependency.
+    implementation(project(":gateway"))
 
     // Adds the Spring Boot starter as an implementation dependency.
     implementation(libs.spring.boot.starter)

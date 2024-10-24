@@ -52,3 +52,13 @@ data class ClickProperties(
     val platform: String? = null,
     val country: String? = null
 )
+
+/**
+ * [GeolocationData] contains the geographical information (country, city, region)
+ * based on the client's IP address.
+ */
+data class GeolocationData(
+    val country: String,
+    val city: String,
+    val region: String
+)

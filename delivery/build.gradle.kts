@@ -19,6 +19,9 @@ dependencies {
     // Include the core project as an implementation dependency
     implementation(project(":core"))
 
+    // Include the core project as an implementation dependency
+    implementation(project(":gateway"))
+
     // Include Spring Boot Starter Web as an implementation dependency
     implementation(libs.spring.boot.starter.web)
 
