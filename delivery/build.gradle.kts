@@ -45,6 +45,12 @@ dependencies {
 
     // Include Spring Boot Starter Test as a test implementation dependency
     testImplementation(libs.spring.boot.starter.test)
+
+    // ZXing Core: Proporciona las funcionalidades básicas para la generación y decodificación de códigos de barras, incluyendo códigos QR.
+    implementation 'com.google.zxing:core:3.4.1'
+    
+    // ZXing Java SE: Proporciona clases adicionales específicas para aplicaciones Java SE (Standard Edition) que facilitan la generación de imágenes de códigos de barras y su manipulación.
+    implementation 'com.google.zxing:javase:3.4.1'
 }
 
 dependencyManagement {
